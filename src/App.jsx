@@ -81,7 +81,7 @@ function App() {
           <div className='decoration'>
             <hr />
             <div className="decoration-img">
-              <button className='form-button' type='submit'><img src='src\assets\images\icon-arrow.svg'></img></button>
+              <button className='form-button' type='submit'><img src='.\assets\images\icon-arrow.svg'></img></button>
             </div>
           </div>
           <section className='form-response'>

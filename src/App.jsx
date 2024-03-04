@@ -1,5 +1,6 @@
 import './App.css'
 import Footer from './components/Footer'
+import Icon from './assets/images/icon-arrow.svg'
 
 function App() {  
 
@@ -81,7 +82,7 @@ function App() {
           <div className='decoration'>
             <hr />
             <div className="decoration-img">
-              <button className='form-button' type='submit'><img src='./assets/images/icon-arrow.svg'></img></button>
+              <button className='form-button' type='submit'><img src={Icon}></img></button>
             </div>
           </div>
           <section className='form-response'>
